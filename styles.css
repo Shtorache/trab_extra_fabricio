@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('imgs/4e242dc51037ae20dac85a70788965ff.jpeg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color: black;
+    color: #a03e3e;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.photo {
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+    background-color: #ccc;
+    transition: width 0.5s, height 0.5s;
+    overflow: hidden;
+    display: flex; /* Adicionado para centralizar a imagem */
+    justify-content: center; /* Adicionado para centralizar a imagem */
+    align-items: center; /* Adicionado para centralizar a imagem */
+}
+
+.photo img {
+    width: 100%; /* Ajusta a largura da imagem para preencher completamente a div */
+    height: 100%; /* Ajusta a altura da imagem para preencher completamente a div */
+    object-fit: cover; /* Redimensiona a imagem para preencher a div enquanto mantém a proporção */
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    margin-top: 20%;
+    padding: 10px;
+    text-align: center;
+}
